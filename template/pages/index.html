@@ -1,0 +1,248 @@
+{% extends 'pages/base.html' %}
+{% load static %}
+
+{% block content %}
+<!-- Hero -->
+<section id="slider" class="hero p-0 odd">
+    <div class="swiper-container full-slider animation slider-h-100">
+        <div class="swiper-wrapper">
+
+            <!-- Item 1 -->
+            <div class="swiper-slide slide-center">
+
+                <img src="{% static 'assets/images/bg-4.jpg' %}" class="full-image" data-mask="70">
+
+                <div class="slide-content row">
+                    <div class="col-12 d-flex inner">
+                        <div class="center align-self-center text-center">
+                            <h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">INNOVATIVE
+                            </h1>
+                            <p data-aos="zoom-out-up" data-aos-delay="800" class="description ml-auto mr-auto">We are
+                                driven by creativity. We create innovative things to help you achieve better results and
+                                consolidate yourself in the market.</p>
+                            <a href="#contact" data-aos="zoom-out-up" data-aos-delay="1200"
+                                class="smooth-anchor ml-auto mr-auto mt-5 btn primary-button"><i
+                                    class="icon-cup"></i>GET STARTED</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="swiper-slide slide-center">
+
+                <img src="{% static 'assets/images/bg-5.jpg' %}" class="full-image" data-mask="70">
+
+                <div class="slide-content row">
+                    <div class="col-12 d-flex inner">
+                        <div class="center align-self-center text-center">
+                            <h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">INSIGHTFUL
+                            </h1>
+                            <p data-aos="zoom-out-up" data-aos-delay="800" class="description ml-auto mr-auto">We are
+                                idea-driven, working with a strong focus on design and user experience. That's what your
+                                brand and audience deserve.</p>
+                            <a href="#contact" data-aos="zoom-out-up" data-aos-delay="1200"
+                                class="smooth-anchor ml-auto mr-auto mt-5 btn primary-button"><i
+                                    class="icon-cup"></i>GET STARTED</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="swiper-slide slide-center">
+
+                <img src="{% static 'assets/images/bg-5.jpg' %}" class="full-image" data-mask="70">
+
+                <div class="slide-content row">
+                    <div class="col-12 d-flex inner">
+                        <div class="center align-self-center text-center">
+                            <h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">INSPIRED
+                            </h1>
+                            <p data-aos="zoom-out-up" data-aos-delay="800" class="description ml-auto mr-auto">We are
+                                idea-driven, working with a strong focus on design and user experience. That's what your
+                                brand and audience deserve.</p>
+                            <a href="#contact" data-aos="zoom-out-up" data-aos-delay="1200"
+                                class="smooth-anchor ml-auto mr-auto mt-5 btn primary-button"><i
+                                    class="icon-cup"></i>GET STARTED</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+
+
+<!-- About [image] -->
+<section id="about" class="section-1 odd highlights image-right">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 align-self-center text-center text-md-left">
+                <div class="row intro">
+                    <div class="col-12 p-0">
+                        <h2 class="featured alt">About <span>Us</span></h2>
+                        <P>A1 Activation is an innovative BTL marketing agency focused on creating meaningful and relevant experiences between brands and consumers.
+                            <br>We are a full-service integrated BTL and digital marketing agency based in Dar es Salaam, Tanzania
+                        </P>
+                    </div>
+                </div>
+                <!-- <div class="row items">
+                                <div class="col-12 p-0">
+                                    <div class="row item">
+                                        <div class="col-12 col-md-2 align-self-center">
+                                            <i class="icon icon-badge"></i>
+                                        </div>
+                                        <div class="col-12 col-md-9 align-self-center">
+                                            <h4>Quality</h4>
+                                            <p>Everything we do has the commitment of a well trained and motivated team.</p>
+                                        </div>  
+                                    </div>
+                                    <div class="row item">
+                                        <div class="col-12 col-md-2 align-self-center">
+                                            <i class="icon icon-briefcase"></i>
+                                        </div>
+                                        <div class="col-12 col-md-9 align-self-center">
+                                            <h4>Experience</h4>
+                                            <p>Focused on results we seek to raise the level of our customers.</p>
+                                        </div>  
+                                    </div>
+                                </div>
+                            </div> -->
+            </div>
+            <div class="gallery col-12 col-md-6">
+                <a href="{% static 'assets/images/about-4.jpg' %}">
+                    <img src="{% static 'assets/images/about-4.jpg' %}" class="fit-image" alt="About Us">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Services -->
+<section id="services" class="section-3 odd offers featured">
+    <div class="container">
+        <div class="row intro text-center">
+            <div class="col-12 align-self-center text-center">
+                <h2 class="">Our Services</h2>
+                <p>This is what we do all day everyday and our expertise, knowledge, and combined experience of over 50 
+                    years in the marketing industry will shine through in the way we work with you personally and professionally.</p>
+            </div>
+        </div>
+        <div class="row justify-content-center text-center items">
+            <div class="col-12 col-md-6 col-lg-3 item">
+                <div class="card featured">
+                    <i class="icon icon-globe"></i>
+                    <h4>Brand Activation</h4>
+                    <p>We design and execute Brand Activations through one-to-one engagements</p>
+                    <a href="#"><i class="btn-icon icon-arrow-right-circle"></i></a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 item">
+                <div class="card">
+                    <i class="icon icon-basket"></i>
+                    <h4>Events Management</h4>
+                    <p>We design and execute Brand Activations through one-to-one engagements</p>
+                    <a href="#"><i class="btn-icon icon-arrow-right-circle"></i></a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 item">
+                <div class="card">
+                    <i class="icon icon-screen-smartphone"></i>
+                    <h4>Media & PR</h4>
+                    <p>We design and execute Brand Activations through one-to-one engagements</p>
+                    <a href="#"><i class="btn-icon icon-arrow-right-circle"></i></a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 item">
+                <div class="card featured">
+                    <i class="icon icon-layers"></i>
+                    <h4>Digital Media</h4>
+                    <p>We design and execute Brand Activations through one-to-one engagements.</p>
+                    <a href="#"><i class="btn-icon icon-arrow-right-circle"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Fun Facts -->
+<section id="funfacts" class="section-4 odd counter funfacts featured">
+    <div class="container">
+        <div class="row text-center intro">
+            <div class="col-12">
+                <h2>Fun Facts</h2>
+                <p class="text-max-800">Over the years we have done many things that we are proud of. This motivates us
+                    to continue looking for new challenges in order to improve our services.</p>
+            </div>
+        </div>
+        <div data-aos-id="counter" data-aos="fade-up" data-aos-delay="200"
+            class="row justify-content-center text-center items">
+            <div class="col-12 col-md-6 col-lg-3 item">
+                <div data-percent="342" class="radial">
+                    <span></span>
+                </div>
+                <h4>Great Projects</h4>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 item">
+                <div data-percent="128" class="radial">
+                    <span></span>
+                </div>
+                <h4>Innovations</h4>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 item">
+                <div data-percent="745" class="radial">
+                    <span></span>
+                </div>
+                <h4>Cups of Coffee</h4>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 item">
+                <div data-percent="691" class="radial">
+                    <span></span>
+                </div>
+                <h4>Happy Customers</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Subscribe -->
+<section id="subscribe" class="section-6 odd subscribe">
+    <div class="container smaller">
+        <div class="row text-center intro">
+            <div class="col-12">
+                <h2>Newsletter</h2>
+                <p class="text-max-800">Subscribe to our newsletter and follow our content closely. Receive news based
+                    on what has to do with you. We promise not to send promotions you don't like.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 p-0">
+                <form action="php/form.php" id="leverage-subscribe" class="row m-auto items">
+                    <input type="hidden" name="section" value="leverage_subscribe">
+
+                    <input type="hidden" name="reCAPTCHA">
+                    <!-- Remove this field if you want to disable recaptcha -->
+
+                    <div class="col-12 col-lg-5 m-lg-0 input-group align-self-center item">
+                        <input type="text" name="name" class="form-control field-name" placeholder="Name">
+                    </div>
+                    <div class="col-12 col-lg-5 m-lg-0 input-group align-self-center item">
+                        <input type="email" name="email" class="form-control field-email" placeholder="Email">
+                    </div>
+                    <div class="col-12 col-lg-2 m-lg-0 input-group align-self-center item">
+                        <a class="btn primary-button w-100">SUBSCRIBE</a>
+                    </div>
+                    <div class="col-12 text-center">
+                        <span class="form-alert mt-5 mb-0"></span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock content %}
