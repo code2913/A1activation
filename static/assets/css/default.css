@@ -1,21 +1,29 @@
 /*----------------------------------------------
 *
-* [Main Stylesheet]
+* [Default Stylesheet]
 *
-* Theme    : A1 activation
-* Version  : 0.1
-* Author   : Samuel Magafu
+* Theme    : Leverage
+* Version  : 2.0
+* Author   : Codings
+* Support  : codings.dev
 * 
 ----------------------------------------------*/
 
 /*----------------------------------------------
-*
-* [Font Import]
-*
-* Poppins : https://fonts.google.com
-* Gilroy  : https://gist.github.com/mfd/09b70eb47474836f25a21660282ce0fd
-*
+
+[ALL CONTENTS]
+
+1. Root
+2. Button
+3. Effects
+
 ----------------------------------------------*/
+
+/*----------------------------------------------
+1. Root
+----------------------------------------------*/
+
+/* #region Root */
 
 :root {
     --h1-font: 'Gilroy', sans-serif;
