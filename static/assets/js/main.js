@@ -2,10 +2,10 @@
 *
 * [Main Scripts]
 *
-* Theme    : Leverage
+* Theme    : A1 activation
 * Version  : 2.0
-* Author   : Codings
-* Support  : codings.dev
+* Author   : Samuel
+* Support  : starbrandc
 * 
 ----------------------------------------------*/
 
