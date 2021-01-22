@@ -9,3 +9,9 @@ class Homepage(TemplateView):
 
 class AboutUs(TemplateView):
     template_name = "pages/about.html"
+
+class Service(TemplateView):
+    template_name = "pages/service.html"
+
+class Contact(TemplateView):
+    template_name = "pages/contact.html"
