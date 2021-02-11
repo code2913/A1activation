@@ -2525,12 +2525,13 @@ header .navbar-expand .navbar-brand img {
 .card.featured:before {
     position: absolute;
     z-index: -1;
-    content: '';
+    content: '';v
     width: calc(50% + 10px);
     height: calc(50% + 10px);
     border: none;
-    background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var(--primary-color) 65%);
-    background-image: linear-gradient(45deg, var(--secondary-color) 15%, var(--primary-color) 65%);
+    background-color: var(--secondary-color);
+    /* background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var(--primary-color) 65%); */
+    /* background-image: linear-gradient(45deg, var(--secondary-color) 15%, var(--primary-color) 65%); */
     transition-timing-function: cubic-bezier(.25, .25, .75, .75);
     transition-duration: 0.4s;
     transition-property: opacity, transform;

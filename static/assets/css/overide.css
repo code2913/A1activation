@@ -12,3 +12,9 @@
 span{
     color:#d72825;
 }
+.secondary-color{
+    color:#2C3791;
+}
+.secondary-bg{
+    background-color: #2C3791 !important;
+}
