@@ -1,5 +1,12 @@
 {% extends 'pages/base.html' %}
 {% load static %}
+{% block links %}
+<li class="nav-item"><a href="{% url 'pages:homepage' %}" class="nav-link active">Home</a></li>
+<li class="nav-item"><a href="{% url 'pages:about-us' %}" class="nav-link">About Us</a></li>
+<li class="nav-item"><a href="{% url 'pages:service' %}" class="nav-link">Services</a></li>
+<li class="nav-item"><a href="#" class="nav-link">Work</a></li>
+<li class="nav-item"><a href="{% url 'pages:contact' %}" class="nav-link">Contact</a></li>
+{% endblock links %}
 
 {% block content %}
 <!-- Hero -->
@@ -10,7 +17,7 @@
             <!-- Item 1 -->
             <div class="swiper-slide slide-center">
 
-                <img src="{% static 'assets/images/bg-2.jpg' %}" class="full-image" data-mask="80">
+                <img src="{% static 'assets/images/bg-2.jpg' %}" class="full-image" data-mask="60">
 
                 <div class="slide-content row">
                     <div class="col-12 d-flex inner">
@@ -30,7 +37,7 @@
             <!-- Item 2 -->
             <div class="swiper-slide slide-center">
 
-                <img src="{% static 'assets/images/bg-1.jpg' %}" class="full-image" data-mask="80">
+                <img src="{% static 'assets/images/bg-1.jpg' %}" class="full-image" data-mask="60">
 
                 <div class="slide-content row">
                     <div class="col-12 d-flex inner">
@@ -46,7 +53,7 @@
             <!-- Item 3 -->
             <div class="swiper-slide slide-center">
 
-                <img src="{% static 'assets/images/bg-3.jpg' %}" class="full-image" data-mask="80">
+                <img src="{% static 'assets/images/bg-3.jpg' %}" class="full-image" data-mask="60">
 
                 <div class="slide-content row">
                     <div class="col-12 d-flex inner">
@@ -70,14 +77,14 @@
 
             <!-- Item 1 -->
             <div class="swiper-slide slide-center swiper-slide-active" style="width: 1680px;">
-                <img src="{% static 'assets/images/A1-shield.jpg' %}" class="full-image" data-mask="80">
+                <img src="{% static 'assets/images/A1-shield.jpg' %}" class="full-image" data-mask="60">
 
                 <div class="slide-content row">
                     <div class="col-12 d-flex inner">
                         <div class="col-md-8 offset-md-4">
                             <div class="center align-self-center text-left">
                                 <h2 data-aos="zoom-out-up" data-aos-delay="400" class="aos-init aos-animate">About Us</h2>
-                                <p data-aos="zoom-out-up" data-aos-delay="800" class="aos-init aos-animate">A1 Activation was born out of a desire to create truly engaging, exciting and memorable brand experiences with a strong creative twist. The business was founded following our dream to have a small, bespoke yet passionate and experienced team. <br> <br>
+                                <p data-aos="zoom-out-up" data-aos-delay="800" class="description aos-init aos-animate">A1 Activation was born out of a desire to create truly engaging, exciting and memorable brand experiences with a strong creative twist. The business was founded following our dream to have a small, bespoke yet passionate and experienced team. <br> <br>
                                     At A1 Activation we ensure we go that extra mile to deliver excellence and perfection in every brand that we touch. We provide several services to help plan everything from start to finish and take the stress away from you.
                                     </p>
                                 <!-- <a href="#contact" data-aos="zoom-out-up" data-aos-delay="1200" class="smooth-anchor ml-auto mr-auto mt-5 btn primary-button aos-init aos-animate"><i class="icon-rocket"></i>CONTACT US</a> -->
@@ -97,8 +104,8 @@
     <div class="container">
         <div class="row intro text-center">
             <div class="col-12 align-self-center text-center">
-                <h2 class="">Our Services</h2>
-                <p>This is what we do all day everyday and our expertise, knowledge, and combined experience of over 50
+                <h2>Our Services</h2>
+                <p class="description">This is what we do all day everyday and our expertise, knowledge, and combined experience of over 50
                     years in the marketing industry will shine through in the way we work with you personally and
                     professionally.</p>
             </div>
@@ -116,7 +123,7 @@
                 <div class="card featured">
                     <img src="{% static 'assets/images/icon-02.svg' %}" alt="" style="width: 70px; margin: auto;">
                     <h4 class="secondary-color">Events Management</h4>
-                    <p>We run a variety of events from product launches to Christmas parties to treasure hunts and we love that every event is totally dierent.</p>
+                    <p>We run a variety of events from product launches to Christmas parties to treasure hunts and we love that every event is totally different.</p>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3">
@@ -145,7 +152,7 @@
         <div class="row text-center intro">
             <div class="col-12">
                 <h2>How We Do it</h2>
-                <p class="text-max-800">We start by sitting down with you to understand the objective of
+                <p class="description">We start by sitting down with you to understand the objective of
                     your campaign and we then help you achieve this by providing creative, exciting and ‘spot on’ solutions</p>
             </div>
         </div>

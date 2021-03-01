@@ -1,6 +1,12 @@
 {% extends 'pages/base.html' %}
 {% load static %}
-
+{% block links %}
+<li class="nav-item"><a href="{% url 'pages:homepage' %}" class="nav-link">Home</a></li>
+<li class="nav-item"><a href="{% url 'pages:about-us' %}" class="nav-link active">About Us</a></li>
+<li class="nav-item"><a href="{% url 'pages:service' %}" class="nav-link">Services</a></li>
+<li class="nav-item"><a href="#" class="nav-link">Work</a></li>
+<li class="nav-item"><a href="{% url 'pages:contact' %}" class="nav-link">Contact</a></li>
+{% endblock links %}
 {% block content %}
 <section id="slider" class="hero p-0 odd featured">
     <div class="swiper-container no-slider slider-h-85">
@@ -66,8 +72,8 @@
                     <div class="col-12 d-flex inner">
                         <div class="center align-self-center text-center">
                             <h2 data-aos="zoom-out-up" data-aos-delay="400" class="aos-init aos-animate">OUR EXPERIENCE & AFFILIATES</h2>
-                            <p data-aos="zoom-out-up" data-aos-delay="800" class="ml-auto mr-auto aos-init aos-animate">With a combined experience of 50+ years in marketing, our team has worked with some of the biggest local and international brands.</p>
-                            <p data-aos="zoom-out-up" data-aos-delay="800" class="ml-auto mr-auto aos-init aos-animate">We are affiliated to A1 Outdoor, which is the market leader in outdoor advertising in Tanzania with footprint in Kenya and Zambia. A1 Outdoor has nearly three decades in the outdoor advertising industry and is fuelled by our passion and commitment to excellence. 
+                            <p data-aos="zoom-out-up" data-aos-delay="800" class="description ml-auto mr-auto aos-init aos-animate">With a combined experience of 50+ years in marketing, our team has worked with some of the biggest local and international brands.</p>
+                            <p data-aos="zoom-out-up" data-aos-delay="800" class="description ml-auto mr-auto aos-init aos-animate">We are affiliated to A1 Outdoor, which is the market leader in outdoor advertising in Tanzania with footprint in Kenya and Zambia. A1 Outdoor has nearly three decades in the outdoor advertising industry and is fuelled by our passion and commitment to excellence. 
                             </p>
                             <!-- <a href="http://" target="_blank" rel="noopener noreferrer"></a> -->
                             <!-- <a href="https://a1outdoor.co.tz/" target="_blank" data-aos="zoom-out-up" data-aos-delay="1200" class="smooth-anchor ml-auto mr-auto mt-5 btn primary-button aos-init aos-animate"><i class="icon-rocket"></i>VISIT A1 OUTDOOR</a> -->
@@ -88,7 +94,7 @@
             <div class="row text-center intro">
                 <div class="col-12">
                     <h2>Meet the team</h2>
-                    <p class="text-max-800">Our team will help you define a stand-out creative direction and will translate it into visual assets that will resonate with your audience.</p>
+                    <p class="description">Our team will help you define a stand-out creative direction and will translate it into visual assets that will resonate with your audience.</p>
                 </div>
             </div>
             <div class="swiper-container mid-slider-simple items swiper-container-initialized swiper-container-horizontal">

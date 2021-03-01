@@ -2011,12 +2011,12 @@ header .navbar-expand .navbar-brand img {
 .no-slider .slide-content .center .description {
     max-width: 900px;
     margin-bottom: 2rem;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
 .full-slider .slide-content .center .description p,
 .no-slider .slide-content .center .description p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .full-slider .slide-content .left .description,

@@ -18,3 +18,7 @@ span{
 .secondary-bg{
     background-color: #2C3791 !important;
 }
+
+.description{
+    font-size: 1.4rem !important;
+}
