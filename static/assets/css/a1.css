@@ -13,13 +13,11 @@
 * [Font Import]
 *
 * Poppins : https://fonts.google.com
-* Gilroy  : https://gist.github.com/mfd/09b70eb47474836f25a21660282ce0fd
+* Quicksand  : https://gist.github.com/mfd/09b70eb47474836f25a21660282ce0fd
 *
 ----------------------------------------------*/
 
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
-@import url('../../../cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css');
-
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap');
 /*----------------------------------------------
 
 [ALL CONTENTS]
@@ -1007,7 +1005,7 @@ aside {
     width: 100%;
     text-align: center;
     line-height: 40px;
-    font-family: 'Gilroy', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 2rem;
     font-weight: 700;
 }
